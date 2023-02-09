@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Master Test Suite">
+  <test name="Functional Testing">
+    <classes>
+      <!-- <class name="testng.LoginTest"/>
+      <class name="testng.VerifyCorrectPage"/>
+      <class name="testng.GroupingTests"/>
+      <class name="testng.SkippingTests"></class>-->
+      <class name=""></class>
+    </classes>
+  </test> 
+</suite> 
