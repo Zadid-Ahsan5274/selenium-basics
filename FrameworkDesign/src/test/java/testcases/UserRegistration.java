@@ -6,10 +6,10 @@ import org.testng.annotations.Test;
 import base.BaseTest;
 import utilities.ReadExcelData;
 
-public class SecondTest extends BaseTest {
+public class UserRegistration extends BaseTest {
 
 	@Test(dataProviderClass = ReadExcelData.class, dataProvider = "bvtData")
-	public void loginTest(String username, String password) throws InterruptedException {
+	public void UserRegistrationTest(String username, String password) throws InterruptedException {
 
 		driver.get("https://www.zoho.com/crm/"); // properties
 		driver.findElement(By.partialLinkText(loc.getProperty("sign_in_link"))).click(); // locators - properties
